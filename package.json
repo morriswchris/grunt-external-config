@@ -1,25 +1,25 @@
 {
-	"name": "load-grunt-config",
+	"name": "grunt-external-config",
 	"description": "A faster, cleaner, less merge conflicting grunt config",
 	"version": "1.0.0",
-	"homepage": "https://github.com/morriswchris/load-grunt-config",
+	"homepage": "https://github.com/morriswchris/grunt-external-config",
 	"author": {
 		"name": "Chris Morris",
 		"email": "morriswchris@gmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/morriswchris/load-grunt-config.git"
+		"url": "git://github.com/morriswchris/grunt-external-config.git"
 	},
 	"bugs": {
-		"url": "https://github.com/morriswchris/load-grunt-config/issues"
+		"url": "https://github.com/morriswchris/grunt-external-config/issues"
 	},
 	"licenses": [{
 		"type": "MIT",
-		"url": "https://github.com/morriswchris/load-grunt-config/blob/master/LICENSE-MIT"
+		"url": "https://github.com/morriswchris/grunt-external-config/blob/master/LICENSE-MIT"
 	}],
-	"files": ["load-grunt-config"],
-	"main": "load-grunt-config",
+	"files": ["grunt-external-config"],
+	"main": "grunt-external-config",
 	"engines": {
 		"node": ">= 0.8.0"
 	},
@@ -42,6 +42,6 @@
 		"colors": "~0.6.2"
 	},
 	"readmeFilename": "README.md",
-	"_id": "load-grunt-config@1.0.0",
-	"_from": "load-grunt-config@"
+	"_id": "grunt-external-config@1.0.0",
+	"_from": "grunt-external-config@"
 }
