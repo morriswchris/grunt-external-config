@@ -1,0 +1,47 @@
+{
+	"name": "load-grunt-config",
+	"description": "A faster, cleaner, less merge conflicting grunt config",
+	"version": "1.0.0",
+	"homepage": "https://github.com/morriswchris/load-grunt-config",
+	"author": {
+		"name": "Chris Morris",
+		"email": "morriswchris@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/morriswchris/load-grunt-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/morriswchris/load-grunt-config/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "https://github.com/morriswchris/load-grunt-config/blob/master/LICENSE-MIT"
+	}],
+	"files": ["load-grunt-config"],
+	"main": "load-grunt-config",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.2"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.2"
+	},
+	"keywords": [
+		"gruntplugin",
+		"cleangruntconfig",
+		"clean",
+		"grunt",
+		"gruntconfig",
+		"config"
+	],
+	"dependencies": {
+		"lodash": "~2.4.1",
+		"colors": "~0.6.2"
+	},
+	"readmeFilename": "README.md",
+	"_id": "load-grunt-config@1.0.0",
+	"_from": "load-grunt-config@"
+}
