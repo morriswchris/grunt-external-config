@@ -1,4 +1,4 @@
-# load-grunt-config
+# grunt-simple-config
 > A faster, cleaner, less merge conflic grunt config
 
 ## Getting Started
@@ -7,22 +7,22 @@ This plugin requires Grunt.
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install load-grunt-config --save-dev
+npm install grunt-simple-config --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-require('load-grunt-config')(grunt, <options>);
+require('grunt-simple-config')(grunt, <options>);
 ```
 
 ## Overview
-The load-grunt-config plugin was conceptualized when my projects began having large merge conflicts due to single line changes within
+The grunt-simple-config plugin was conceptualized when my projects began having large merge conflicts due to single line changes within
 the grunt config file. After much research, I was able to minimze the Gruntfile.js through the use of
 [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks) and [grunt.loadTasks](http://gruntjs.com/api/grunt#grunt.loadtasks)
-but there was nothing to minimize my ever growing grunt.config object. Insert load-grunt-config.
+but there was nothing to minimize my ever growing grunt.config object. Insert grunt-simple-config.
 
-The load-grunt-config plugin allows you to separate all of your grunt plugin configs into separate module files, and then
+The grunt-simple-config plugin allows you to separate all of your grunt plugin configs into separate module files, and then
 load them through directory traversal.
 
 ## Options
@@ -91,7 +91,7 @@ module.exports = function(grunt) {
 	});
 
 	//load config
-	require('load-grunt-config')(grunt, {
+	require('grunt-simple-config')(grunt, {
 		location: "./grunt/config"
 	});
 
