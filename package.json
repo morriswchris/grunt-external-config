@@ -14,11 +14,18 @@
 	"bugs": {
 		"url": "https://github.com/morriswchris/grunt-simple-config/issues"
 	},
-	"licenses": [{
-		"type": "MIT",
-		"url": "https://github.com/morriswchris/grunt-simple-config/blob/master/LICENSE-MIT"
-	}],
-	"files": ["LICENSE-MIT", "README.md", "grunt-simple-config.js", "package.json"],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/morriswchris/grunt-simple-config/blob/master/LICENSE-MIT"
+		}
+	],
+	"files": [
+		"LICENSE-MIT",
+		"README.md",
+		"grunt-simple-config.js",
+		"package.json"
+	],
 	"main": "grunt-simple-config",
 	"engines": {
 		"node": ">= 0.8.0"
@@ -27,7 +34,7 @@
 		"grunt": "~0.4.2"
 	},
 	"peerDependencies": {
-		"grunt": "~0.4.2"
+		"grunt": ">=0.4.0"
 	},
 	"keywords": [
 		"gruntplugin",
